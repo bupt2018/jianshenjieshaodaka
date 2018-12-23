@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/SY/SY",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/signIn/signIn",
+    "pages/ZY/ZY",
+    "pages/JXXL/JXXL",
+    "pages/JXXL/1/1",
+    "pages/JXXL/2/2" ,
+    "pages/JXXL/3/3",
+    "pages/JXXL/4/4",
+    "pages/JXXL/5/5"
+    ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/nav/home-on.png",
+        "iconPath": "images/nav/home-off.png",
+        "pagePath": "pages/SY/SY",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/nav/order-on.png",
+        "iconPath": "images/nav/order-off.png",
+        "pagePath": "pages/ZY/ZY",
+        "text": "地图"
+      },
+      {
+        "selectedIconPath": "images/nav/icon-list-sel.png",
+        "iconPath": "images/nav/icon-list.png",
+        "pagePath": "pages/signIn/signIn",
+        "text": "签到"
+      }
+    
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<view bindtap="toast" class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <button type="defaul" bindtap="jumpBtn">俯卧撑</button>
+  <button type="defaul" bindtap="jumBtn">深蹲</button>
+  <button type="defaul" bindtap="juBtn">引体向上</button>
+  <button type="defaul" bindtap="jBtn">举腿</button>
+  <button type="defaul" bindtap="jumpBtns">铁板桥</button>

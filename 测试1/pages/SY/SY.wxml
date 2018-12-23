@@ -1,0 +1,10 @@
+<swiper indicator-dots="{{indicatorDots}}"
+ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ <block wx:for="{{imgUrls}}" wx:key="unique">
+  <swiper-item>
+   <image src="{{item}}" class="slide-image"/>
+  </swiper-item>
+ </block>
+</swiper>
+
+<button type="defaul" bindtap="jumpBtn">健身训练素材</button>
